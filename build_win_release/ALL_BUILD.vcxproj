@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7B768E15-10F4-3DEB-8330-7C5A1EB175AE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\bin\cmake.exe -SD:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet -BD:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release --check-stamp-file D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\DarknetConfig.cmake.in;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeCCompiler.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeCXXCompiler.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeRCCompiler.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeSystem.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\cmake\Modules\FindStb.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\src\version.h.in;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\vcpkg\installed\x64-windows\share\pthreads_windows\vcpkg-cmake-wrapper.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckIncludeFile.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckLanguage.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckLibraryExists.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindOpenMP.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindPackageMessage.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindThreads.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\SelectLibraryConfigurations.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\bin\cmake.exe -SD:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet -BD:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release --check-stamp-file D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\DarknetConfig.cmake.in;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeCCompiler.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeCXXCompiler.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeRCCompiler.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeSystem.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\cmake\Modules\FindStb.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\src\version.h.in;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\vcpkg\installed\x64-windows\share\pthreads_windows\vcpkg-cmake-wrapper.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckIncludeFile.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckLanguage.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckLibraryExists.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindOpenMP.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindPackageMessage.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindThreads.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\SelectLibraryConfigurations.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\bin\cmake.exe -SD:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet -BD:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release --check-stamp-file D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\DarknetConfig.cmake.in;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeCCompiler.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeCXXCompiler.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeRCCompiler.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeSystem.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\cmake\Modules\FindStb.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\src\version.h.in;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\vcpkg\installed\x64-windows\share\pthreads_windows\vcpkg-cmake-wrapper.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckIncludeFile.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckLanguage.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckLibraryExists.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindOpenMP.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindPackageMessage.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindThreads.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\SelectLibraryConfigurations.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\bin\cmake.exe -SD:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet -BD:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release --check-stamp-file D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\DarknetConfig.cmake.in;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeCCompiler.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeCXXCompiler.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeRCCompiler.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\3.16.0-rc1\CMakeSystem.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\cmake\Modules\FindStb.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\src\version.h.in;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\vcpkg\installed\x64-windows\share\pthreads_windows\vcpkg-cmake-wrapper.cmake;D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckIncludeFile.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckLanguage.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\CheckLibraryExists.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindOpenMP.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindPackageMessage.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\FindThreads.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\SelectLibraryConfigurations.cmake;D:\professional-work\softwares\CNN\cmake-3.16.0-rc1-win64-x64\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\ZERO_CHECK.vcxproj">
+      <Project>{1039242F-1720-3EA8-9A8B-16445934EB36}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\dark.vcxproj">
+      <Project>{8E0DD1C3-1057-3E77-9E49-67BCCE8C0ACF}</Project>
+      <Name>dark</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\darknet.vcxproj">
+      <Project>{FF4A0911-84FC-38EE-B434-E7AA199B4F4C}</Project>
+      <Name>darknet</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\uselib.vcxproj">
+      <Project>{50F177FD-ABE9-3AFA-AFA4-8838313F380D}</Project>
+      <Name>uselib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

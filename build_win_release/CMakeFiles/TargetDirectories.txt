@@ -1,0 +1,6 @@
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release/CMakeFiles/dark.dir
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release/CMakeFiles/uselib.dir
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release/CMakeFiles/INSTALL.dir
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release/CMakeFiles/darknet.dir
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release/CMakeFiles/ALL_BUILD.dir
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release/CMakeFiles/ZERO_CHECK.dir

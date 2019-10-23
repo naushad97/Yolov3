@@ -1,0 +1,10 @@
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/dark.lib
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/dark.dll
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/include/darknet/darknet.h
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/include/darknet/yolo_v2_class.hpp
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/uselib.exe
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/darknet.exe
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/share/darknet/DarknetTargets.cmake
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/share/darknet/DarknetTargets-release.cmake
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/share/darknet/DarknetConfig.cmake
+D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/share/darknet/DarknetConfigVersion.cmake

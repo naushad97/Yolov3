@@ -1,0 +1,29 @@
+Looking for a CUDA compiler failed with the following output:
+-- Selecting Windows SDK version 10.0.17763.0 to target Windows 10.0.17134.
+CMake Error at D:/professional-work/softwares/CNN/cmake-3.16.0-rc1-win64-x64/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:351 (message):
+  No CUDA toolset found.
+Call Stack (most recent call first):
+  D:/professional-work/softwares/CNN/cmake-3.16.0-rc1-win64-x64/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  D:/professional-work/softwares/CNN/cmake-3.16.0-rc1-win64-x64/share/cmake-3.16/Modules/CMakeDetermineCUDACompiler.cmake:72 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release/CMakeFiles/CheckCUDA/CMakeFiles/CMakeOutput.log".
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/professional-work/projects/pocs/CNN-YOLO/darknet/windows/darknet/build_win_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_22acc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27025.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22acc.dir\Debug\\" /Fd"cmTC_22acc.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\professional-work\projects\pocs\CNN-YOLO\darknet\windows\darknet\build_win_release\CMakeFiles\CMakeTmp\cmTC_22acc.vcxproj]
+
+
+
